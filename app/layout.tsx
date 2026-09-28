@@ -6,7 +6,7 @@ import AppShell from "@/components/AppShell";
 import PlayerBar from "@/components/PlayerBar";
 import PlayerProvider from "@/components/PlayerProvider";
 import { SITE } from "@/lib/site";
-
+export const runtime = 'edge';
 const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display", display: "swap" });
 const body = Manrope({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 

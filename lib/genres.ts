@@ -1,3 +1,5 @@
+
+export const runtime = 'edge';
 export const GENRES = [
   { name: "Electronic", query: "Electronic", from: "#5CF2C0", to: "#4CC9F0", dot: "#5CF2C0" },
   { name: "Hip-Hop", query: "Hip-Hop/Rap", from: "#FF7AC6", to: "#8B7BFF", dot: "#FF7AC6" },

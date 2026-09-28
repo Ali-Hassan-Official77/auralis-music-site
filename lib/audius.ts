@@ -1,6 +1,6 @@
 import { Track } from "./types";
 import { SITE } from "./site";
-
+export const runtime = 'edge';
 const APP_NAME = process.env.AUDIUS_APP_NAME || SITE.name;
 const API_KEY = process.env.AUDIUS_API_KEY || "";
 const BEARER = process.env.AUDIUS_BEARER_TOKEN || "";

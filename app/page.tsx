@@ -13,7 +13,7 @@ import { getTrending } from "@/lib/audius";
 import { GENRES } from "@/lib/genres";
 
 export const revalidate = 60;
-
+export const runtime = 'edge';
 const features = [
   {
     icon: "search" as const,
