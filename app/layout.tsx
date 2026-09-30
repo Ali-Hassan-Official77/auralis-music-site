@@ -27,6 +27,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <AppShell>{children}</AppShell>
           <PlayerBar />
         </PlayerProvider>
+
+        <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_tbyN8NK6M84cKjFZXIJY2W7k" defer></script>
       </body>
     </html>
   );
